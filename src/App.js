@@ -1,14 +1,16 @@
 import './App.css';
 import Header from './Header.js';
-import Body from './Body.js';
+import Recipe from './Recipe.js';
 import Footer from './Footer.js';
+import ImageSection from './ImageSection.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Header />
-        <Body />
+        <ImageSection />
+        <Recipe />
         <Footer />
       
       </header>

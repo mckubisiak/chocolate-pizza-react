@@ -29,14 +29,14 @@ export default class Header extends Component {
     </div>
 
     <div className="social"> 
-        <img src={facebook} alt='facebook link'></img> 
-        <img src={twitter} alt="twitter link"></img> 
-        <img src={googlePlus} alt="google plus link"></img> 
-        <img src={instagram} alt="instagram link"></img> 
-        <img src={flicker} alt="flicker link"></img> 
-        <img src={pintrest} alt=" pintrest link"></img> 
-        <img src={rss} alt="rss link"></img> 
-        <img src={mail} alt="email link"></img> 
+        <a href="#"><img src={facebook} alt='facebook link' /></a>
+        <a href="#"><img src={twitter} alt="twitter link" /></a>
+        <a href="#"><img src={googlePlus} alt="google plus link" /></a>
+        <a href="#"><img src={instagram} alt="instagram link" /></a>
+        <a href="#"><img src={flicker} alt="flicker link" /></a>
+        <a href="#"><img src={pintrest} alt=" pintrest link" /></a>
+        <a href="#"><img src={rss} alt="rss link"></img></a>
+        <a href="#"><img src={mail} alt="email link" /></a>
     </div>
 
     </header>
